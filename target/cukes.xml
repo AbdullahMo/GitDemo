@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="39.519">
+    <testcase classname="Search Functionality" name="Search for item and validate results" time="7.699">
+        <system-out><![CDATA[Given User is on Greencart landing page.....................................passed
+When User search for cucumber vegetables....................................passed
+Then Cucumber results are displayed.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search Functionality" name="Search for item and then move to checkout page" time="10.516">
+        <system-out><![CDATA[Given User is on Greencart landing page.....................................passed
+When User search for Brinjal vegetables.....................................passed
+And Added item to cart......................................................passed
+And User proceed to Checkout page for purchase..............................passed
+Then Verify selected Brinjal item is displayed in checkout pages............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search Functionality" name="Search for item and then move to checkout page with examples" time="10.395">
+        <system-out><![CDATA[Given User is on Greencart landing page.....................................passed
+When User search for Brinjal vegetables.....................................passed
+And Added item to cart......................................................passed
+And User proceed to Checkout page for purchase..............................passed
+Then Verify selected Brinjal item is displayed in checkout pages............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search Functionality" name="Search for item and then move to checkout page with examples 2" time="10.575">
+        <system-out><![CDATA[Given User is on Greencart landing page.....................................passed
+When User search for Beetroot vegetables....................................passed
+And Added item to cart......................................................passed
+And User proceed to Checkout page for purchase..............................passed
+Then Verify selected Beetroot item is displayed in checkout pages...........passed
+]]></system-out>
+    </testcase>
+</testsuite>

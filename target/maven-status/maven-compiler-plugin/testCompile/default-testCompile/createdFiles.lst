@@ -1,0 +1,5 @@
+stepDefinitions\MyStepDefinitions.class
+pageObjects\CheckoutPage.class
+stepDefinitions\Hooks.class
+testRunners\TestRunner.class
+pageObjects\HomePage.class
